@@ -1,5 +1,5 @@
 
-# função de cálculo
+# função de cálculo - soma |  Subtração | Multiplicação | Divisão
 def soma():
     x = float(input("Primeiro numero: "))
     y = float(input("Segundo numero: "))
