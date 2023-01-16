@@ -1,11 +1,13 @@
 
 # função de cálculo - Soma
-def soma(x, y):
-    return x + y
+def soma():
+    x = float(input("Primeiro numero: "))
+    y = float(input("Segundo numero: "))
+    print("Soma: ", x+y)
 
-x = 4
-y = 6
 
-resultado = soma(x,y)
 
-print(resultado)
+def subtracao():
+    x = float(input("Primeiro numero: "))
+    y = float(input("Segundo numero: "))
+    print("Subtracao: ",x-y)
